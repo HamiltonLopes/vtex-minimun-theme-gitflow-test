@@ -2,12 +2,21 @@
   "store.home": { 
     "blocks": [
       "rich-text",
-      "image#logo"
+      "image#logo",
+      "rich-text#2"
     ]
   },
   "rich-text": { 
     "props": { 
-      "text": "Hello World!",
+      "text": "Hello World!!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#2": { 
+    "props": { 
+      "text": "Bye World!",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
